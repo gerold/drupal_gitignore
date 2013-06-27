@@ -7,31 +7,31 @@ files/
 sites/*/files
 sites/*/private
 
-# Ignore default text files
-.htaccess
-robots.txt
-/CHANGELOG.txt
-/COPYRIGHT.txt
-/INSTALL*.txt
-/LICENSE.txt
-/MAINTAINERS.txt
-/UPGRADE.txt
-/README.txt
-sites/all/README.txt
-sites/all/modules/README.txt
-sites/all/themes/README.txt
+# Use some global ignore files from https://github.com/github/gitignore
 
-# Ignore everything but the "sites" folder ( for non core developer )
-web.config
-authorize.php
-cron.php
-index.php
-install.php
-update.php
-xmlrpc.php
-/includes
-/misc
-/modules
-/profiles
-/scripts
-/themes
+# OS-Specifics
+.DS_Store
+.LSOverride
+Thumbs.db
+Desktop.ini
+
+# Other VCS/RCS
+.svn/
+/CVS/*
+*/CVS/*
+.cvsignore
+*/.cvsignore
+
+# IDEs / Editors
+*.sublime-workspace
+*.tmproj
+*.tmproject
+tmtags
+*.un~
+*~
+*.swp
+
+# Archives
+*.zip
+*.gz
+*.tar
