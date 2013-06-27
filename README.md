@@ -1,2 +1,2 @@
-test1
+gitignore for drupal projects
 =====
